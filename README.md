@@ -2,6 +2,6 @@
 
 Projeyi klon yapıp indirdikten sonra 
 
-### `npm start` 
+### `npm install` 
 
 komutu ile projeyi ve bağımlılıklarını indirmiş ve yeni projeyi başlatmış oluyoruz.
