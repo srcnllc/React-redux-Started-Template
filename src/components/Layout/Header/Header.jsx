@@ -6,20 +6,16 @@ export default function Header() {
   const [active, setActive] = useState(true);
   const navList = [
     {
-      title: 'Hakkında',
-      slug: '/#about',
+      title: 'Home',
+      slug: '/',
     },
     {
-      title: 'link1',
-      slug: '/how-to-buy/#buy',
+      title: 'About',
+      slug: '/about',
     },
     {
-      title: 'link2',
-      slug: '/how-to-buy',
-    },
-    {
-      title: 'iletişim',
-      slug: '/#roadmap',
+      title: 'Contact',
+      slug: '/contact',
     },
   ];
 
@@ -29,7 +25,7 @@ export default function Header() {
         <Container large>
           <div className={styles.topbar}>
             <a href="/" className={styles.logo}>
-              <img src={'/logo.png'} />
+              <img src={'/logo.png'} alt='Logo'/>
             </a>
             <div className={`${styles.rightBar} d-md`}>
               <a href={'/'} className="btn white">
@@ -37,7 +33,7 @@ export default function Header() {
               </a>
               <a href={'/'} className="btn green">
                 <div className="icon">
-                  <img src={'/images/icons/wallet.svg'} />
+                  <img src={'/images/icons/wallet.svg'} alt='wallet'/>
                 </div>
                 BUTTON-2
               </a>
